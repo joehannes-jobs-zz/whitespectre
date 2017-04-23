@@ -10,3 +10,6 @@
 .no__overflow {
   overflow: hidden;
 }
+.inlined {
+  display: inline;
+}

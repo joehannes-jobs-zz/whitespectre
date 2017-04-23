@@ -1,14 +1,10 @@
-# Webpack + MarionetteJS + Babel/ES6
+# Getting it running
 
-This is a modern JS skeleton with MarionetteJS for [Webpack](https://webpack.github.io/).
+You should be able to just
+* npm i
+* npm run start
 
-## Getting started
+Cheers, J
 
-* Install:
-    * Inside this folder run: `npm install`
-* Run:
-    * `npm start` — starts project
-    * `npm run build` - builds you project
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` and `app/styles/` to `public/`.
+PS:
+I hope you guys like the brevity/clarity of things, for I'm a bit new to BB/M and spent most of my time setting things up rather than coding :)
