@@ -1,0 +1,8 @@
+<header class="signature">
+	<h1><%= title %></h1>
+</header>
+<article class="quadrupel">
+	<% _.each(images, (img) => { %>
+		<img src="<%= img + '?bust=' + new Date().getTime() %>"/>
+	<% }); %>
+</ul>

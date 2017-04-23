@@ -1,0 +1,46 @@
+article.quadrupel {
+  position: relative;
+  top: calc(-100px - 3em);
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+article.quadrupel > img {
+    position: relative;
+    display: inline-block;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 200px;
+    height: 150px;
+    margin: 25px;
+    transition: all .2s ease-in-out;
+    box-shadow:
+  		0px 0px 0px 2px rgba(0,0,0,0.6),
+      0px 0px 0px 14px #fff,
+      0px 0px 0px 18px rgba(0,0,0,0.2),
+      6px 6px 8px 17px #555;
+}
+article.quadrupel > img:hover {
+  transform: scale(1.25, 1.25);
+  z-index: 10;
+}
+article.quadrupel > img.active {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(4, 4) translate(-25%, -25%);
+  z-index: 20;
+}
+header.signature {
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 3em;
+  font-family: 'UnifrakturCook', cursive;
+  text-decoration: underline;
+}
